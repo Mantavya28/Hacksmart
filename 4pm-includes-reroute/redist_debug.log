@@ -1,0 +1,6 @@
+Error in redistribution: 'ST007'
+Traceback (most recent call last):
+  File "/Users/harshitagarwal/Documents/AMEX/hacksmart demo/spatial_utils.py", line 298, in redistribute_scenario_demand
+    feat = new_features[sid]
+           ~~~~~~~~~~~~^^^^^
+KeyError: 'ST007'
