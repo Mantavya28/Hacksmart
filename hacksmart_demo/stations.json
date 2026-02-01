@@ -1,0 +1,74 @@
+[
+    {
+        "id": "ST001",
+        "name": "Connaught Place Hub",
+        "lat": 28.6315,
+        "lon": 77.2167,
+        "chargers": 20,
+        "bays": 4,
+        "inventory_cap": 20,
+        "arrival_rate": 8.5,
+        "service_rate": 0.5,
+        "status": "healthy"
+    },
+    {
+        "id": "ST002",
+        "name": "Dwarka Sector 21",
+        "lat": 28.552,
+        "lon": 77.0585,
+        "chargers": 20,
+        "bays": 3,
+        "inventory_cap": 20,
+        "arrival_rate": 5.2,
+        "service_rate": 0.5,
+        "status": "healthy"
+    },
+    {
+        "id": "ST003",
+        "name": "Rohini West",
+        "lat": 28.716,
+        "lon": 77.114,
+        "chargers": 20,
+        "bays": 4,
+        "inventory_cap": 20,
+        "arrival_rate": 6.8,
+        "service_rate": 0.5,
+        "status": "warning"
+    },
+    {
+        "id": "ST004",
+        "name": "Nehru Place",
+        "lat": 28.5494,
+        "lon": 77.2501,
+        "chargers": 20,
+        "bays": 4,
+        "inventory_cap": 20,
+        "arrival_rate": 7.2,
+        "service_rate": 0.5,
+        "status": "healthy"
+    },
+    {
+        "id": "ST005",
+        "name": "Mayur Vihar Ph-1",
+        "lat": 28.613,
+        "lon": 77.29,
+        "chargers": 20,
+        "bays": 2,
+        "inventory_cap": 20,
+        "arrival_rate": 4.1,
+        "service_rate": 0.5,
+        "status": "critical"
+    },
+    {
+        "id": "ST006",
+        "name": "Hauz Khas Village",
+        "lat": 28.553,
+        "lon": 77.206,
+        "chargers": 20,
+        "bays": 3,
+        "inventory_cap": 20,
+        "arrival_rate": 5.5,
+        "service_rate": 0.5,
+        "status": "healthy"
+    }
+]
