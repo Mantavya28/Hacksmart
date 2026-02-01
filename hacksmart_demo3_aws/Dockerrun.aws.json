@@ -1,0 +1,29 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "hacksmart-streamlit",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": 8501,
+      "HostPort": 8501
+    }
+  ],
+  "Volumes": [],
+  "Logging": "/var/log/streamlit",
+  "Environment": [
+    {
+      "Name": "STREAMLIT_SERVER_PORT",
+      "Value": "8501"
+    },
+    {
+      "Name": "STREAMLIT_SERVER_ADDRESS",
+      "Value": "0.0.0.0"
+    },
+    {
+      "Name": "STREAMLIT_SERVER_HEADLESS",
+      "Value": "true"
+    }
+  ]
+}

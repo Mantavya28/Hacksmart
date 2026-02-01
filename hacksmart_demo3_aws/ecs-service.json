@@ -1,0 +1,30 @@
+{
+    "serviceName": "hacksmart-streamlit-service",
+    "taskDefinition": "hacksmart-streamlit-task",
+    "launchType": "FARGATE",
+    "desiredCount": 2,
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "subnets": [
+                "subnet-xxxxxxxx",
+                "subnet-yyyyyyyy"
+            ],
+            "securityGroups": [
+                "sg-xxxxxxxxx"
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "loadBalancers": [
+        {
+            "targetGroupArn": "arn:aws:elasticloadbalancing:{REGION}:{ACCOUNT_ID}:targetgroup/hacksmart-tg/xxxxxxxxxxxx",
+            "containerName": "hacksmart-streamlit",
+            "containerPort": 8501
+        }
+    ],
+    "healthCheckGracePeriodSeconds": 60,
+    "deploymentConfiguration": {
+        "maximumPercent": 200,
+        "minimumHealthyPercent": 100
+    }
+}
