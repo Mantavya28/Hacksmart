@@ -889,7 +889,7 @@ def get_img_as_base64(file_path):
     return base64.b64encode(data).decode()
 
 # Logo path
-logo_path = "greenswap_logo.png"
+logo_path = "hacksmart_demo/greenswap_logo.png"
 logo_b64 = get_img_as_base64(logo_path)
 
 
@@ -1059,7 +1059,7 @@ from datetime import datetime
 
 # Read Logo
 try:
-    with open("greenswap_logo.png", "rb") as f:
+    with open("hacksmart_demo/greenswap_logo.png", "rb") as f:
         logo_b64 = base64.b64encode(f.read()).decode()
 except:
     logo_b64 = ""
