@@ -919,7 +919,7 @@ def get_img_as_base64(file_path):
     return base64.b64encode(data).decode()
 
 # Logo path
-logo_path = "greenswap_logo.png"
+logo_path = "hacksmart_demo3_aws/greenswap_logo.png"
 logo_b64 = get_img_as_base64(logo_path)
 
 
